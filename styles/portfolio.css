@@ -15,6 +15,10 @@
 } */
 
 .header {
+    /* height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
     background-image: url(../assets/Hero-bg.png);
 }
 
@@ -192,4 +196,79 @@ main {
 .section-description {
     margin-left: 144px;
     margin-right: 144px;
+}
+
+/* 5th page */
+
+.Targets {
+    margin-bottom: 48px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    /* margin-top: 48px; */
+    border: 1px solid #eee;
+    border-radius: 16px;
+    /* padding-bottom: 24px; */
+    margin-bottom: 20px;
+
+}
+
+.card-img {
+    padding: 55px 24px 55px 40px;
+}
+
+.target-title {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.target-description {}
+
+/* 6th page */
+footer {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 49px;
+    margin-bottom: 80px;
+    background-image: url(../assets/handshake.jpg);
+    border-radius: 16px;
+}
+
+
+.Support {
+    padding: 64px 48px;
+}
+
+.support-title {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.support-description {
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-left: 267px;
+    padding-right: 267px;
+    padding-bottom: 24px;
+}
+
+footer input[type="text"] {
+    height: 57px;
+    width: 548px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+footer input[type="submit"] {
+    height: 57px;
+    width: 120px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
 }
