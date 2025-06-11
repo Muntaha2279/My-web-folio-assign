@@ -266,3 +266,22 @@ footer input[type="submit"] {
     font-size: 20px;
     font-weight: 500;
 }
+
+/* last section */
+
+.last-section {
+    /* max-width: 1140px;
+    margin: 0 auto; */
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aliceblue; */
+}
+
+.last-description {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.last-img {
+    padding: 14px;
+}
